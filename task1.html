@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>images</title>
+    </head>
+    <body id="demo">
+        <div class="image">
+            <img src=https://media.giphy.com/media/jaqvaWqpKflmQ/giphy.gif alt="image 1">
+        </div>
+        <div class="p">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+            Autem quis dignissimos iure inventore ratione quae error commodi, deleniti, eveniet nulla officiis necessitatibus harum debitis perferendis provident?<br>
+            Eos iure provident laudantium labore sint voluptatem, ullam ipsa accusamus dolorum, molestias reiciendis, magni voluptate quidem quia fuga eum harum dolor? Laborum, provident ipsa.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Consequatur exercitationem asperiores cupiditate perferendis beatae animi, rerum aut consequuntur non id culpa cum earum assumenda voluptates atque quasi minima ratione qui veritatis, numquam at placeat?<br>
+            Magni illo asperiores deserunt porro aliquam? Fuga quos iusto vero. Magni tempore culpa vero provident sint!
+        </p>
+        </div>
+        <div class="image">
+            <img src=https://media.giphy.com/media/jaqvaWqpKflmQ/giphy.gif alt="image 2">
+        </div>
+        <div class="image">
+            <img src=https://media.giphy.com/media/jaqvaWqpKflmQ/giphy.gif alt="image 3">
+        </div>
+        <div class="image">
+            <img src=https://media.giphy.com/media/jaqvaWqpKflmQ/giphy.gif alt="image 4">
+        </div>
+    </body>
+    <script>
+        function capitalizeParagraphs(){
+            const paragraphs = document.querySelectorAll('p');
+
+            paragraphs.forEach((paragraph) =>{
+                const originalText = paragraph.textContent;
+                const capitalizedText = originalText.toUpperCase();
+                paragraph.textContent = capitalizedText;
+            });
+        }
+        document.querySelectorAll('p').innerHTML = paragraph;
+
+        function replaceImage(){
+            const images = docement.querySelectorAll('.image');
+            const newsrc = 'https: //media.giphy.com/media/jaqvaWqpKlmQ/giphy.gif';
+            images.forEach((Image) =>{
+                image.src = newsrc;
+            });
+        }
+    </Script>
+</html>
